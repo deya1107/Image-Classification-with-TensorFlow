@@ -17,7 +17,7 @@ Tools used in this project:
 ## Files description  
 - 1604018417.h5 Keras saved model
 - predict.py commmand line application
-- 
+- Project_Image_Classifier_Project.ipynb jupyter notebook contains codes for entire project
 
 ## Installation
 - TensorFlow- 2.1.0  
