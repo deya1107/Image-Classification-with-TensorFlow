@@ -14,7 +14,12 @@ Tools used in this project:
 - Anaconda (Jypyter Notebook)
 - GPU required
 
-# Installation
+## Files description  
+- 1604018417.h5 Keras saved model
+- predict.py commmand line application
+- 
+
+## Installation
 - TensorFlow- 2.1.0  
 `{ !pip install tensorflow==2.1.0 --user }`  
 - TensorFlow Dataset  
@@ -24,7 +29,7 @@ Tools used in this project:
 
 The dataset used is [Oxford 102 Category Flower Dataset](https://www.tensorflow.org/datasets/catalog/oxford_flowers102).
 
-# How to run predict.py (Command line application)
+## How to run predict.py (Command line application)
 Basic usage:
 `{ $ python predict.py ./test_images/orchid.jpg 1604018417.h5 }`
 Options:  
@@ -33,6 +38,6 @@ Options:
 - Use a label_map.json file to map labels to flower names:  
 `{ $ python predict.py ./test_images/orchid.jpg 1604018417.h5 --category_names label_map.json }`
 
-# License
+## License
 
 This project belongs to Udacity Nanodegree, all the copyrights belog to Udacity.
